@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-family: Source Serif Pro;
+  font-size: 62.5%;
+}
+
+body{
+  color: #A54328;
+  
+  background: url(images/background.png);
+  
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+main{
+  max-width: 32rem;
+
+  margin-inline: auto;
+  padding: 5.6rem 4rem;
+  box-sizing: content-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.description h1, .recipe h2{
+  font-size: 2.8rem;
+}
+
+.description img{
+  width: 100%;
+
+  margin-block: 3.2rem;
+}
+
+.recipe h2{
+  margin-bottom: 3.2rem;
+}
+
+.recipe ul{
+  margin-bottom: 3.2rem;
+}
+
+.recipe ol li, ul li{
+  margin-left: 2.4rem;
+}
+
+button{
+  color: #FFFFFF;
+  background: #A54328;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: 'Source Serif 4', serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 17px;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3.2rem;
+  padding: 1.1rem;
+}
+
+@media (min-width: 1024px) {
+
+  body  {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  h1,
+  h2{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  main{
+    max-width: fit-content;
+    flex-direction: row;
+    gap:16rem;
+  }
+
+  .description{
+    max-width: 43.5rem;
+  }
+  
+  .recipe{
+    max-width: 52.5rem;
+  }
+
+  button{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
