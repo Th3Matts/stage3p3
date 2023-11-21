@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  text-decoration: none;
 }
 
 :root{
@@ -53,7 +55,6 @@ main{
 }
 
 button{
-  color: #FFFFFF;
   background: #A54328;
 
   border: none;
@@ -71,6 +72,10 @@ button{
 
   margin-top: 3.2rem;
   padding: 1.1rem;
+}
+
+button a {
+  color: #FFFFFF;
 }
 
 @media (min-width: 1024px) {
