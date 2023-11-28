@@ -100,6 +100,17 @@ button a {
   .description{
     max-width: 43.5rem;
   }
+
+  .description section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description p{
+    line-height: 2.7rem;
+    max-width: 40ch;
+  }
   
   .recipe{
     max-width: 52.5rem;
